@@ -3,16 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7429230C2314F3D100E48D98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429230B2314F3D100E48D98 /* AppDelegate.swift */; };
 		7429230E2314F3D100E48D98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429230D2314F3D100E48D98 /* ViewController.swift */; };
-		742923112314F3D100E48D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7429230F2314F3D100E48D98 /* Main.storyboard */; };
 		742923132314F3D400E48D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742923122314F3D400E48D98 /* Assets.xcassets */; };
-		742923162314F3D400E48D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742923142314F3D400E48D98 /* LaunchScreen.storyboard */; };
 		742923212314F3D400E48D98 /* aniRecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742923202314F3D400E48D98 /* aniRecipeTests.swift */; };
+		7449BFD223178ED600DA65C4 /* 材料アイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFD123178ED500DA65C4 /* 材料アイコン.png */; };
+		7449BFD42317AA4100DA65C4 /* 作り方アイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFD32317AA4100DA65C4 /* 作り方アイコン.png */; };
+		7449BFD62317B51F00DA65C4 /* パンプキン.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFD52317B51F00DA65C4 /* パンプキン.JPG */; };
+		7449BFD82317CAC100DA65C4 /* MyUINavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449BFD72317CAC100DA65C4 /* MyUINavigationControllerViewController.swift */; };
+		7449BFDE23181B6700DA65C4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7449BFDD23181B6700DA65C4 /* Social.framework */; };
+		7449BFE02318B4D400DA65C4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449BFDF2318B4D400DA65C4 /* StartViewController.swift */; };
+		7449BFE22318C9A300DA65C4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFE12318C9A300DA65C4 /* icon.png */; };
+		7449BFED2318CF5100DA65C4 /* favorite@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFE72318CF5000DA65C4 /* favorite@3x.png */; };
+		7449BFEE2318CF5100DA65C4 /* add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFE82318CF5000DA65C4 /* add@3x.png */; };
+		7449BFEF2318CF5100DA65C4 /* home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFE92318CF5000DA65C4 /* home@3x.png */; };
+		7449BFF22318CF5100DA65C4 /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFEC2318CF5100DA65C4 /* search@3x.png */; };
+		7449BFF42318D3D800DA65C4 /* heart_full@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFF32318D3D700DA65C4 /* heart_full@3x.png */; };
+		7449BFF62318D3E900DA65C4 /* heart_empty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFF52318D3E900DA65C4 /* heart_empty@3x.png */; };
+		7449BFFC2318D43F00DA65C4 /* heart_active@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFF82318D43F00DA65C4 /* heart_active@3x.png */; };
+		7449BFFD2318D43F00DA65C4 /* search_active@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFF92318D43F00DA65C4 /* search_active@3x.png */; };
+		7449BFFE2318D43F00DA65C4 /* home_active@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449BFFA2318D43F00DA65C4 /* home_active@3x.png */; };
+		7449C0002318D70900DA65C4 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449BFFF2318D70900DA65C4 /* MyTabBar.swift */; };
+		7449C0022318D7EB00DA65C4 /* sure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449C0012318D7EB00DA65C4 /* sure@3x.png */; };
+		7449C0042318E01100DA65C4 /* shere@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449C0032318E01000DA65C4 /* shere@3x.png */; };
+		7449C0062318ED4A00DA65C4 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449C0052318ED4A00DA65C4 /* FavoriteViewController.swift */; };
+		7449C00D2318EF8800DA65C4 /* front.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449C0072318EF8800DA65C4 /* front.png */; };
+		7449C0102318EF8800DA65C4 /* follow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449C00A2318EF8800DA65C4 /* follow.png */; };
+		7449C0122318EF8800DA65C4 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449C00C2318EF8800DA65C4 /* profile.png */; };
+		7449C0162318F27900DA65C4 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449C0152318F27900DA65C4 /* MyTabBarController.swift */; };
+		7449C0182318F2C100DA65C4 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449C0172318F2C100DA65C4 /* PostViewController.swift */; };
+		7449C0442318F50A00DA65C4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449C0432318F50A00DA65C4 /* SearchViewController.swift */; };
+		7449C04A2318FAD800DA65C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7449C0492318FAD800DA65C4 /* Main.storyboard */; };
+		7449C04C2318FB5200DA65C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7449C04B2318FB5200DA65C4 /* LaunchScreen.storyboard */; };
+		7449C04F2318FF4000DA65C4 /* search1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449C04D2318FF3F00DA65C4 /* search1.png */; };
+		7449C0502318FF4000DA65C4 /* toukou.png in Resources */ = {isa = PBXBuildFile; fileRef = 7449C04E2318FF4000DA65C4 /* toukou.png */; };
+		74FFC1232314FE00000AFB1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74FFC1222314FE00000AFB1A /* GoogleService-Info.plist */; };
+		74FFC12A23157418000AFB1A /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FFC12823157418000AFB1A /* HomeCell.swift */; };
+		74FFC12B23157418000AFB1A /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74FFC12923157418000AFB1A /* HomeCell.xib */; };
+		74FFC13123164D57000AFB1A /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FFC13023164D57000AFB1A /* RecipeViewController.swift */; };
+		D7BCBAB7091C9D0504B6356C /* Pods_aniRecipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD761CD8537E92771750418 /* Pods_aniRecipe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +62,48 @@
 		742923082314F3D100E48D98 /* aniRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aniRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7429230B2314F3D100E48D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7429230D2314F3D100E48D98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		742923102314F3D100E48D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		742923122314F3D400E48D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		742923152314F3D400E48D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		742923172314F3D400E48D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7429231C2314F3D400E48D98 /* aniRecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aniRecipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		742923202314F3D400E48D98 /* aniRecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aniRecipeTests.swift; sourceTree = "<group>"; };
 		742923222314F3D400E48D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7449BFD123178ED500DA65C4 /* 材料アイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "材料アイコン.png"; sourceTree = "<group>"; };
+		7449BFD32317AA4100DA65C4 /* 作り方アイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "作り方アイコン.png"; sourceTree = "<group>"; };
+		7449BFD52317B51F00DA65C4 /* パンプキン.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "パンプキン.JPG"; sourceTree = "<group>"; };
+		7449BFD72317CAC100DA65C4 /* MyUINavigationControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUINavigationControllerViewController.swift; sourceTree = "<group>"; };
+		7449BFDD23181B6700DA65C4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7449BFDF2318B4D400DA65C4 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		7449BFE12318C9A300DA65C4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../Downloads/icon.png; sourceTree = "<group>"; };
+		7449BFE72318CF5000DA65C4 /* favorite@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "favorite@3x.png"; path = "../../../../Downloads/icons 2/favorite@3x.png"; sourceTree = "<group>"; };
+		7449BFE82318CF5000DA65C4 /* add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add@3x.png"; path = "../../../../Downloads/icons 2/add@3x.png"; sourceTree = "<group>"; };
+		7449BFE92318CF5000DA65C4 /* home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home@3x.png"; path = "../../../../Downloads/icons 2/home@3x.png"; sourceTree = "<group>"; };
+		7449BFEC2318CF5100DA65C4 /* search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search@3x.png"; path = "../../../../Downloads/icons 2/search@3x.png"; sourceTree = "<group>"; };
+		7449BFF32318D3D700DA65C4 /* heart_full@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heart_full@3x.png"; path = "../../../../Downloads/icons 2/heart_full/heart_full@3x.png"; sourceTree = "<group>"; };
+		7449BFF52318D3E900DA65C4 /* heart_empty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heart_empty@3x.png"; path = "../../../../Downloads/icons 2/heart_empty/heart_empty@3x.png"; sourceTree = "<group>"; };
+		7449BFF82318D43F00DA65C4 /* heart_active@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heart_active@3x.png"; path = "../../../../Downloads/icon3/heart_active@3x.png"; sourceTree = "<group>"; };
+		7449BFF92318D43F00DA65C4 /* search_active@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search_active@3x.png"; path = "../../../../Downloads/icon3/search_active@3x.png"; sourceTree = "<group>"; };
+		7449BFFA2318D43F00DA65C4 /* home_active@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home_active@3x.png"; path = "../../../../Downloads/icon3/home_active@3x.png"; sourceTree = "<group>"; };
+		7449BFFF2318D70900DA65C4 /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
+		7449C0012318D7EB00DA65C4 /* sure@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sure@3x.png"; path = "../../../../Downloads/sure/sure@3x.png"; sourceTree = "<group>"; };
+		7449C0032318E01000DA65C4 /* shere@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shere@3x.png"; path = "../../../../Downloads/icons 2/shere/shere@3x.png"; sourceTree = "<group>"; };
+		7449C0052318ED4A00DA65C4 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		7449C0072318EF8800DA65C4 /* front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = front.png; path = ../../../../Downloads/page/front.png; sourceTree = "<group>"; };
+		7449C00A2318EF8800DA65C4 /* follow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = follow.png; path = ../../../../Downloads/page/follow.png; sourceTree = "<group>"; };
+		7449C00C2318EF8800DA65C4 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../../../../Downloads/page/profile.png; sourceTree = "<group>"; };
+		7449C0152318F27900DA65C4 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		7449C0172318F2C100DA65C4 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		7449C0432318F50A00DA65C4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7449C0492318FAD800DA65C4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7449C04B2318FB5200DA65C4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7449C04D2318FF3F00DA65C4 /* search1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search1.png; path = "../../../../Downloads/page 2/search1.png"; sourceTree = "<group>"; };
+		7449C04E2318FF4000DA65C4 /* toukou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toukou.png; path = "../../../../Downloads/page 2/toukou.png"; sourceTree = "<group>"; };
+		74FFC1222314FE00000AFB1A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		74FFC12823157418000AFB1A /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		74FFC12923157418000AFB1A /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		74FFC13023164D57000AFB1A /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		9AD761CD8537E92771750418 /* Pods_aniRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aniRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63ABBE7E612184F24761EF2 /* Pods-aniRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aniRecipe.debug.xcconfig"; path = "Target Support Files/Pods-aniRecipe/Pods-aniRecipe.debug.xcconfig"; sourceTree = "<group>"; };
+		CEAB60D99A6EF51CDD080A99 /* Pods-aniRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aniRecipe.release.xcconfig"; path = "Target Support Files/Pods-aniRecipe/Pods-aniRecipe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7449BFDE23181B6700DA65C4 /* Social.framework in Frameworks */,
+				D7BCBAB7091C9D0504B6356C /* Pods_aniRecipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +126,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64005FC5957A9CDF6FBCBAD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B63ABBE7E612184F24761EF2 /* Pods-aniRecipe.debug.xcconfig */,
+				CEAB60D99A6EF51CDD080A99 /* Pods-aniRecipe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		742922FF2314F3D100E48D98 = {
 			isa = PBXGroup;
 			children = (
 				7429230A2314F3D100E48D98 /* aniRecipe */,
 				7429231F2314F3D400E48D98 /* aniRecipeTests */,
 				742923092314F3D100E48D98 /* Products */,
+				64005FC5957A9CDF6FBCBAD4 /* Pods */,
+				D524767E2043710A19490EF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +158,25 @@
 		7429230A2314F3D100E48D98 /* aniRecipe */ = {
 			isa = PBXGroup;
 			children = (
+				7449C0492318FAD800DA65C4 /* Main.storyboard */,
+				7449C04B2318FB5200DA65C4 /* LaunchScreen.storyboard */,
+				7449BFE12318C9A300DA65C4 /* icon.png */,
+				7449BFD023178EB300DA65C4 /* images */,
+				74FFC1222314FE00000AFB1A /* GoogleService-Info.plist */,
 				7429230B2314F3D100E48D98 /* AppDelegate.swift */,
+				74FFC13023164D57000AFB1A /* RecipeViewController.swift */,
 				7429230D2314F3D100E48D98 /* ViewController.swift */,
-				7429230F2314F3D100E48D98 /* Main.storyboard */,
+				74FFC12823157418000AFB1A /* HomeCell.swift */,
+				74FFC12923157418000AFB1A /* HomeCell.xib */,
 				742923122314F3D400E48D98 /* Assets.xcassets */,
-				742923142314F3D400E48D98 /* LaunchScreen.storyboard */,
 				742923172314F3D400E48D98 /* Info.plist */,
+				7449BFD72317CAC100DA65C4 /* MyUINavigationControllerViewController.swift */,
+				7449BFDF2318B4D400DA65C4 /* StartViewController.swift */,
+				7449BFFF2318D70900DA65C4 /* MyTabBar.swift */,
+				7449C0052318ED4A00DA65C4 /* FavoriteViewController.swift */,
+				7449C0152318F27900DA65C4 /* MyTabBarController.swift */,
+				7449C0172318F2C100DA65C4 /* PostViewController.swift */,
+				7449C0432318F50A00DA65C4 /* SearchViewController.swift */,
 			);
 			path = aniRecipe;
 			sourceTree = "<group>";
@@ -96,6 +190,41 @@
 			path = aniRecipeTests;
 			sourceTree = "<group>";
 		};
+		7449BFD023178EB300DA65C4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7449C04D2318FF3F00DA65C4 /* search1.png */,
+				7449C04E2318FF4000DA65C4 /* toukou.png */,
+				7449C00A2318EF8800DA65C4 /* follow.png */,
+				7449C0072318EF8800DA65C4 /* front.png */,
+				7449C00C2318EF8800DA65C4 /* profile.png */,
+				7449C0032318E01000DA65C4 /* shere@3x.png */,
+				7449C0012318D7EB00DA65C4 /* sure@3x.png */,
+				7449BFF82318D43F00DA65C4 /* heart_active@3x.png */,
+				7449BFFA2318D43F00DA65C4 /* home_active@3x.png */,
+				7449BFF92318D43F00DA65C4 /* search_active@3x.png */,
+				7449BFF52318D3E900DA65C4 /* heart_empty@3x.png */,
+				7449BFF32318D3D700DA65C4 /* heart_full@3x.png */,
+				7449BFE82318CF5000DA65C4 /* add@3x.png */,
+				7449BFE72318CF5000DA65C4 /* favorite@3x.png */,
+				7449BFE92318CF5000DA65C4 /* home@3x.png */,
+				7449BFEC2318CF5100DA65C4 /* search@3x.png */,
+				7449BFD52317B51F00DA65C4 /* パンプキン.JPG */,
+				7449BFD32317AA4100DA65C4 /* 作り方アイコン.png */,
+				7449BFD123178ED500DA65C4 /* 材料アイコン.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D524767E2043710A19490EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7449BFDD23181B6700DA65C4 /* Social.framework */,
+				9AD761CD8537E92771750418 /* Pods_aniRecipe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 742923252314F3D400E48D98 /* Build configuration list for PBXNativeTarget "aniRecipe" */;
 			buildPhases = (
+				FB1662408DD1A94B233B6C47 /* [CP] Check Pods Manifest.lock */,
 				742923042314F3D100E48D98 /* Sources */,
 				742923052314F3D100E48D98 /* Frameworks */,
 				742923062314F3D100E48D98 /* Resources */,
+				F6D4887DC0BE14F084CF1675 /* [CP] Embed Pods Frameworks */,
+				9918C6B155CC3ADCBA099823 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +309,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				742923162314F3D400E48D98 /* LaunchScreen.storyboard in Resources */,
+				7449BFFD2318D43F00DA65C4 /* search_active@3x.png in Resources */,
+				7449BFEE2318CF5100DA65C4 /* add@3x.png in Resources */,
+				7449C0122318EF8800DA65C4 /* profile.png in Resources */,
+				7449C0022318D7EB00DA65C4 /* sure@3x.png in Resources */,
+				7449BFF62318D3E900DA65C4 /* heart_empty@3x.png in Resources */,
+				74FFC1232314FE00000AFB1A /* GoogleService-Info.plist in Resources */,
 				742923132314F3D400E48D98 /* Assets.xcassets in Resources */,
-				742923112314F3D100E48D98 /* Main.storyboard in Resources */,
+				7449BFFE2318D43F00DA65C4 /* home_active@3x.png in Resources */,
+				7449BFED2318CF5100DA65C4 /* favorite@3x.png in Resources */,
+				74FFC12B23157418000AFB1A /* HomeCell.xib in Resources */,
+				7449BFD223178ED600DA65C4 /* 材料アイコン.png in Resources */,
+				7449BFF22318CF5100DA65C4 /* search@3x.png in Resources */,
+				7449BFEF2318CF5100DA65C4 /* home@3x.png in Resources */,
+				7449BFE22318C9A300DA65C4 /* icon.png in Resources */,
+				7449C00D2318EF8800DA65C4 /* front.png in Resources */,
+				7449BFF42318D3D800DA65C4 /* heart_full@3x.png in Resources */,
+				7449BFD62317B51F00DA65C4 /* パンプキン.JPG in Resources */,
+				7449C0102318EF8800DA65C4 /* follow.png in Resources */,
+				7449BFD42317AA4100DA65C4 /* 作り方アイコン.png in Resources */,
+				7449C0502318FF4000DA65C4 /* toukou.png in Resources */,
+				7449C04A2318FAD800DA65C4 /* Main.storyboard in Resources */,
+				7449C0042318E01100DA65C4 /* shere@3x.png in Resources */,
+				7449C04F2318FF4000DA65C4 /* search1.png in Resources */,
+				7449C04C2318FB5200DA65C4 /* LaunchScreen.storyboard in Resources */,
+				7449BFFC2318D43F00DA65C4 /* heart_active@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +346,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9918C6B155CC3ADCBA099823 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aniRecipe/Pods-aniRecipe-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aniRecipe/Pods-aniRecipe-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aniRecipe/Pods-aniRecipe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D4887DC0BE14F084CF1675 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aniRecipe/Pods-aniRecipe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aniRecipe/Pods-aniRecipe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aniRecipe/Pods-aniRecipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB1662408DD1A94B233B6C47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aniRecipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		742923042314F3D100E48D98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74FFC13123164D57000AFB1A /* RecipeViewController.swift in Sources */,
 				7429230E2314F3D100E48D98 /* ViewController.swift in Sources */,
+				7449C0162318F27900DA65C4 /* MyTabBarController.swift in Sources */,
+				74FFC12A23157418000AFB1A /* HomeCell.swift in Sources */,
+				7449C0182318F2C100DA65C4 /* PostViewController.swift in Sources */,
+				7449C0002318D70900DA65C4 /* MyTabBar.swift in Sources */,
+				7449BFD82317CAC100DA65C4 /* MyUINavigationControllerViewController.swift in Sources */,
 				7429230C2314F3D100E48D98 /* AppDelegate.swift in Sources */,
+				7449C0442318F50A00DA65C4 /* SearchViewController.swift in Sources */,
+				7449C0062318ED4A00DA65C4 /* FavoriteViewController.swift in Sources */,
+				7449BFE02318B4D400DA65C4 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,25 +441,6 @@
 			targetProxy = 7429231D2314F3D400E48D98 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7429230F2314F3D100E48D98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				742923102314F3D100E48D98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		742923142314F3D400E48D98 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				742923152314F3D400E48D98 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		742923232314F3D400E48D98 /* Debug */ = {
@@ -358,10 +561,13 @@
 		};
 		742923262314F3D400E48D98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63ABBE7E612184F24761EF2 /* Pods-aniRecipe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH57F443N9;
 				INFOPLIST_FILE = aniRecipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,10 +581,13 @@
 		};
 		742923272314F3D400E48D98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAB60D99A6EF51CDD080A99 /* Pods-aniRecipe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH57F443N9;
 				INFOPLIST_FILE = aniRecipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
